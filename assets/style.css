@@ -20,9 +20,14 @@ nav {
     border-bottom: 1px solid #cccccc;
 }
 
+.navbar-brand {
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
 .my-name {
     float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
 }
 
 .main {
@@ -58,6 +63,10 @@ nav {
 
 .page-title {
     color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .img-fluid {
@@ -78,3 +87,31 @@ nav {
     right: 0px;
 }
 
+form {
+    padding-bottom: 20px;
+}
+
+.portfolio-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top:0px;
+    left:0px;
+    bottom:35px;
+    right:0px;
+    opacity: 0;
+    background: #1c403e;
+}
+
+.portfolio-item:hover .overlay {
+    opacity: 0.6;
+}
+
+.page-break {
+    height: 2px;
+    width: 98%;
+    background: #cccccc;
+    margin-bottom: 20px;
+}
